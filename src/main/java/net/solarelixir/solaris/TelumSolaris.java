@@ -35,7 +35,6 @@ public class TelumSolaris implements ModInitializer {
 
         ModWorldGeneration.generateModWorldGen();
 
-
         AttackEntityCallback.EVENT.register((player, world, hand, entity, hitResult) -> {
             if (entity instanceof LivingEntity livingEntity && !world.isClient) {
                 if (player.getMainHandStack().getItem() == SolarisItems.SCARLETT_HAZE) {
