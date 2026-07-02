@@ -14,7 +14,7 @@ public class SolarisModelPredicates {
                 ((stack, world, entity, seed) ->
                         stack.get(SolarisDataComponentTypes.COORDINATES) != null ? 0f : 1f));
         registerCustomBow(SolarisItems.LONGBOW);
-        registerCustomBow(SolarisItems.DUSTWORM_LONGBOW);
+        //registerCustomBow(SolarisItems.DUSTWORM_LONGBOW);
         registerCustomBow(SolarisItems.WOODLAND_BOW);
     }
 
