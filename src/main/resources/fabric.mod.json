@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "solaris",
-	"version": "1.0.0pre-3",
+	"version": "1.0.0a",
 	"name": "Telum Solaris",
 	"description": "My first ever mod aiming to improve weaponry in Minecraft",
 	"authors": [
@@ -11,7 +11,7 @@
 		"homepage": "https://github.com/SolarElixir",
 		"sources": "https://github.com/SolarElixir/Telum-Solaris-1.21.0-Fabric"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/solaris/icon.png",
 	"environment": "*",
 	"entrypoints": {
