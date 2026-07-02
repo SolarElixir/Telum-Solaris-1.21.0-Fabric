@@ -435,7 +435,7 @@ public class SolarisRecipeProvider extends FabricRecipeProvider {
 
         //Sapphire items, blocks and weapons
         List<ItemConvertible> REFINED_SAPPHIRE_BLASTING = List.of(SolarisItems.IMPURE_SAPPHIRE_CHUNK);
-        offerBlasting(exporter, REFINED_SAPPHIRE_BLASTING, RecipeCategory.MISC, SolarisItems.REFINED_SAPPHIRE, 0.25f, 200, "topaz_refining");
+        offerBlasting(exporter, REFINED_SAPPHIRE_BLASTING, RecipeCategory.MISC, SolarisItems.REFINED_SAPPHIRE, 0.25f, 200, "sapphire_refining");
         offerStonecuttingRecipe(exporter, RecipeCategory.MISC, SolarisItems.FLAWLESS_SAPPHIRE, SolarisItems.REFINED_SAPPHIRE);
         offerStonecuttingRecipe(exporter, RecipeCategory.MISC, SolarisItems.SAPPHIRE_TOKEN, SolarisItems.FLAWLESS_SAPPHIRE, 4);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, SolarisItems.FLAWLESS_SAPPHIRE, RecipeCategory.BUILDING_BLOCKS, ModBlocks.SAPPHIRE_BLOCK);
