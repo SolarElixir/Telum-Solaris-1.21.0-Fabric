@@ -11,8 +11,6 @@ public class solarisClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         SolarisModelPredicates.registerModelPredicates();
-
-
         EntityModelLayerRegistry.registerModelLayer(TreelingModel.TREELING, TreelingModel::getTexturedModelData);
         EntityRendererRegistry.register(SolarisEntities.TREELING, TreelingRenderer::new);
         EntityModelLayerRegistry.registerModelLayer(MushlingModel.MUSHLING, MushlingModel::getTexturedModelData);
