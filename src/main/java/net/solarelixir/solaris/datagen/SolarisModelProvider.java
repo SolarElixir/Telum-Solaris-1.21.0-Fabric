@@ -123,9 +123,6 @@ public class SolarisModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor((ArmorItem) SolarisItems.ONYX_LEGGINGS);
         itemModelGenerator.registerArmor((ArmorItem) SolarisItems.ONYX_BOOTS);
 
-        itemModelGenerator.register(SolarisItems.REINFORCED_BOTTLE, Models.GENERATED);
-        itemModelGenerator.register(SolarisItems.THUNDER_BOTTLE, Models.GENERATED);
-
         //Opal
         itemModelGenerator.register(SolarisItems.IMPURE_OPAL_CHUNK, Models.GENERATED);
         itemModelGenerator.register(SolarisItems.REFINED_OPAL, Models.GENERATED);
@@ -146,6 +143,9 @@ public class SolarisModelProvider extends FabricModelProvider {
         //Iron + Diamond
         itemModelGenerator.register(SolarisItems.IRON_KATANA, Models.HANDHELD);
         itemModelGenerator.register(SolarisItems.DIAMOND_KATANA, Models.HANDHELD);
+
+        //itemModelGenerator.register(SolarisItems.REINFORCED_BOTTLE, Models.GENERATED);
+        //itemModelGenerator.register(SolarisItems.THUNDER_BOTTLE, Models.GENERATED);
 
         itemModelGenerator.register(SolarisItems.SCARLETT, Models.GENERATED);
         itemModelGenerator.register(SolarisItems.TREELING_SPAWN_EGG,
