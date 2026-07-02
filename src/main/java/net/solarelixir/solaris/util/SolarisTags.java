@@ -35,6 +35,7 @@ public class SolarisTags {
         public static final TagKey<Item> IS_SHIELD = createTag("is_shield");
         public static final TagKey<Item> IS_BOW_ITEM = createTag("is_bow_item");
         public static final TagKey<Item> TWO_HANDED = createTag("two_handed");
+        public static final TagKey<Item> IS_WOODLAND = createTag("is_woodland");
 
         private static TagKey<Item> createTag(String name){
             return TagKey.of(RegistryKeys.ITEM, Identifier.of(TelumSolaris.MOD_ID, name));

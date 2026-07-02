@@ -27,12 +27,18 @@ public class SolarisItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .addTag(SolarisTags.Items.IS_STEEL_WEAPON)
                 .addTag(SolarisTags.Items.IS_IRON_WEAPON)
                 .addTag(SolarisTags.Items.IS_DIAMOND_WEAPON)
+                .addTag(SolarisTags.Items.IS_WOODLAND)
 
                 .add(SolarisItems.SCARLETT_HAZE)
-                .add(SolarisItems.ASTRAL_FORCE)
+                //.add(SolarisItems.ASTRAL_FORCE)
                 .add(SolarisItems.BLACKWIND_SPEAR)
-                .add(SolarisItems.AMETHYST_HALBERD)
+                //.add(SolarisItems.AMETHYST_HALBERD)
         ;
+
+        getOrCreateTagBuilder(SolarisTags.Items.IS_WOODLAND)
+                .add(SolarisItems.WOODLAND_DAGGER)
+                .add(SolarisItems.WOODLAND_LONGSWORD)
+            ;
 
         getOrCreateTagBuilder(SolarisTags.Items.IS_SHIELD)
                 .add(SolarisItems.RUBY_SHIELD)
@@ -88,6 +94,11 @@ public class SolarisItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(SolarisItems.JADE_HALBERD)
                 .add(SolarisItems.JADE_SCYTHE)
                 .add(SolarisItems.ENERGIZED_JADE_SWORD)
+        ;
+
+        getOrCreateTagBuilder(ItemTags.BOW_ENCHANTABLE)
+                .addTag(SolarisTags.Items.IS_BOW_ITEM)
+
         ;
 
         getOrCreateTagBuilder(SolarisTags.Items.IS_IRON_WEAPON)
@@ -164,7 +175,7 @@ public class SolarisItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
         getOrCreateTagBuilder(SolarisTags.Items.IS_BOW_ITEM)
                 .add(SolarisItems.LONGBOW)
-                .add(SolarisItems.DUSTWORM_LONGBOW)
+                //.add(SolarisItems.DUSTWORM_LONGBOW)
                 .add(SolarisItems.WOODLAND_BOW)
         ;
 

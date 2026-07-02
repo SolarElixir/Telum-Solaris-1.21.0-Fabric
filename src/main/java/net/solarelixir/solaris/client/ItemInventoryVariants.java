@@ -16,7 +16,7 @@ public final class ItemInventoryVariants {
      *Has an icon in first and third person
      */
     public static final List<Item> HasIconThirdPerson = List.of(
-            SolarisItems.MUSH_HELM
+            //SolarisItems.MUSH_HELM
     );
 
     static {

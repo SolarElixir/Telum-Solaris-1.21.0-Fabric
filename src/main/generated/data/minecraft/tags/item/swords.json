@@ -9,9 +9,8 @@
     "#solaris:is_steel_weapon",
     "#solaris:is_iron_weapon",
     "#solaris:is_diamond_weapon",
+    "#solaris:is_woodland",
     "solaris:scarlett_haze",
-    "solaris:astral_force",
-    "solaris:blackwind",
-    "solaris:amethyst_halberd"
+    "solaris:blackwind"
   ]
 }

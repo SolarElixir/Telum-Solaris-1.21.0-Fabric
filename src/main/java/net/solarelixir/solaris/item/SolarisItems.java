@@ -298,11 +298,11 @@ public class SolarisItems {
             tooltip.add(Text.translatable("tooltip.solaris.spacer"));
             super.appendTooltip(stack, context, tooltip, type);}});
 
-        public static final Item BROKEN_SPEAR = registerItem("broken_spear", new Item(new Item.Settings()));
+        //public static final Item BROKEN_SPEAR = registerItem("broken_spear", new Item(new Item.Settings()));
 
-        public static final Item DUSTWORM_LONGBOW = registerItem("dustworm_longbow", new BowItem(new Item.Settings().maxDamage(500)));
-        public static final Item REINFORCED_BOTTLE = registerItem("reinforced_bottle", new Item(new Item.Settings().maxCount(64)));
-        public static final Item THUNDER_BOTTLE = registerItem("thunder_bottle", new Item(new Item.Settings().maxCount(16)));
+        //public static final Item DUSTWORM_LONGBOW = registerItem("dustworm_longbow", new BowItem(new Item.Settings().maxDamage(500)));
+        //public static final Item REINFORCED_BOTTLE = registerItem("reinforced_bottle", new Item(new Item.Settings().maxCount(64)));
+        //public static final Item THUNDER_BOTTLE = registerItem("thunder_bottle", new Item(new Item.Settings().maxCount(16)));
         public static final Item BLACKWIND_SPEAR = registerItem("blackwind", new Blackwind(new Item.Settings().maxCount(1).maxDamage(1024)));
 
     //Steel
@@ -331,16 +331,16 @@ public class SolarisItems {
                 new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(19))));
         // ~
 
-        public static final Item AMETHYST_HALBERD = registerItem("amethyst_halberd", new SwordItem(SolarisToolMaterials.ONYX, new Item.Settings()
-                .attributeModifiers(SwordItem.createAttributeModifiers(SolarisToolMaterials.ONYX, scytheDamage, verySlowAttackSpeed))));
+        //public static final Item AMETHYST_HALBERD = registerItem("amethyst_halberd", new SwordItem(SolarisToolMaterials.ONYX, new Item.Settings()
+        //        .attributeModifiers(SwordItem.createAttributeModifiers(SolarisToolMaterials.ONYX, scytheDamage, verySlowAttackSpeed))));
 
 
         public static final Item SCARLETT = registerItem("scarlett", new Item(new Item.Settings()));
         public static final Item SCARLETT_HAZE = registerItem("scarlett_haze", new ScarlettHaze(SolarisToolMaterials.ONYX, new Item.Settings()
                 .attributeModifiers(SwordItem.createAttributeModifiers(SolarisToolMaterials.ONYX, swordDamage, mediumAttackSpeed))));
 
-        public static final Item ASTRAL_FORCE = registerItem("astral_force", new SwordItem(SolarisToolMaterials.RELIC, new Item.Settings()
-                .attributeModifiers(SwordItem.createAttributeModifiers(SolarisToolMaterials.RELIC, swordDamage, mediumAttackSpeed))));
+        //public static final Item ASTRAL_FORCE = registerItem("astral_force", new SwordItem(SolarisToolMaterials.RELIC, new Item.Settings()
+        //        .attributeModifiers(SwordItem.createAttributeModifiers(SolarisToolMaterials.RELIC, swordDamage, mediumAttackSpeed))));
 
         public static final Item WOODLAND_BARK = registerItem("woodland_bark", new Item(new Item.Settings()));
         public static final Item WOODLAND_DAGGER = registerItem("woodland_dagger", new SwordItem(SolarisToolMaterials.WOODLAND, new Item.Settings()
@@ -358,8 +358,8 @@ public class SolarisItems {
         public static final Item MONSTROSITREE_SPAWN_EGG = registerItem("monstrositree_spawn_egg",
                 new SpawnEggItem(SolarisEntities.MONSTROSITREE, 0x784318, 0x5CC736, new Item.Settings()));
 
-        public static final Item MUSH_HELM = registerItem("mush_helm", new ArmorItem(SolarisArmorMaterials.MUSH_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
-                new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(3))));
+        //public static final Item MUSH_HELM = registerItem("mush_helm", new ArmorItem(SolarisArmorMaterials.MUSH_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+        //        new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(3))));
 
         public static final Item FOREST_ESSENCE = registerItem("forest_essence", new Item(new Item.Settings()));
 
@@ -416,8 +416,8 @@ public class SolarisItems {
             entries.addAfter(REFINED_RUBY, FLAWLESS_RUBY);
             entries.addAfter(FLAWLESS_RUBY, RUBY_TOKEN);
 
-            entries.add(REINFORCED_BOTTLE);
-            entries.add(THUNDER_BOTTLE);
+            //entries.add(REINFORCED_BOTTLE);
+            //entries.add(THUNDER_BOTTLE);
 
             //Essences
             entries.add(FOREST_ESSENCE);
@@ -533,15 +533,15 @@ public class SolarisItems {
             entries.add(WOODLAND_DAGGER);
             entries.add(WOODLAND_LONGSWORD);
 
-            entries.add(DUSTWORM_LONGBOW);
+            //entries.add(DUSTWORM_LONGBOW);
             entries.addAfter(Items.BOW, LONGBOW);
             entries.addAfter(LONGBOW, WOODLAND_BOW);
 
             entries.add(BLACKWIND_SPEAR);
 
             entries.add(SCARLETT_HAZE);
-            entries.add(AMETHYST_HALBERD);
-            entries.add(ASTRAL_FORCE);
+            //entries.add(AMETHYST_HALBERD);
+            //entries.add(ASTRAL_FORCE);
 
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(entries -> {

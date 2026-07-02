@@ -140,11 +140,11 @@ public static final ItemGroup TELUM_SOLARIS = Registry.register(Registries.ITEM_
 
 
                     //Boss drops
-                    entries.add(SolarisItems.DUSTWORM_LONGBOW);
+                    //entries.add(SolarisItems.DUSTWORM_LONGBOW);
 
                     //Storm items
-                    entries.add(SolarisItems.REINFORCED_BOTTLE);
-                    entries.add(SolarisItems.THUNDER_BOTTLE);
+                    //entries.add(SolarisItems.REINFORCED_BOTTLE);
+                    //entries.add(SolarisItems.THUNDER_BOTTLE);
 
                     //Hybrid weapons
                     entries.add(SolarisItems.BLACKWIND_SPEAR);
@@ -165,13 +165,13 @@ public static final ItemGroup TELUM_SOLARIS = Registry.register(Registries.ITEM_
                     entries.add(SolarisItems.STEEL_SCYTHE);
                     entries.add(SolarisItems.STEEL_SHIELD);
 
-                    entries.add(SolarisItems.AMETHYST_HALBERD);
+                    //entries.add(SolarisItems.AMETHYST_HALBERD);
 
                     entries.add(SolarisItems.SCARLETT);
                     entries.add(SolarisItems.SCARLETT_HAZE);
-                    entries.add(SolarisItems.BROKEN_SPEAR);
+                    //entries.add(SolarisItems.BROKEN_SPEAR);
 
-                    entries.add(SolarisItems.ASTRAL_FORCE);
+                    //entries.add(SolarisItems.ASTRAL_FORCE);
 
                     entries.add(SolarisItems.TREELING_SPAWN_EGG);
                     entries.add(SolarisItems.MUSHLING_SPAWN_EGG);
