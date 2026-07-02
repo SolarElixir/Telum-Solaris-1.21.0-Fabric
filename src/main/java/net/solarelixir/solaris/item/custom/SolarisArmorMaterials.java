@@ -66,7 +66,7 @@ public class SolarisArmorMaterials extends CustomTooltips {
                 map.put(ArmorItem.Type.HELMET, 4);
                 map.put(ArmorItem.Type.BODY, 9);
                     }), 19, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, () -> Ingredient.ofItems(SolarisItems.ONYX_TOKEN),
-                    List.of(new ArmorMaterial.Layer(Identifier.of(TelumSolaris.MOD_ID, "onyx"))), 2, 0.75f));
+                    List.of(new ArmorMaterial.Layer(Identifier.of(TelumSolaris.MOD_ID, "onyx"))), 2, 0));
 
     public static final RegistryEntry<ArmorMaterial> TOPAZ_ARMOR_MATERIAL = registerArmorMaterial("topaz",
             () -> new ArmorMaterial(Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
