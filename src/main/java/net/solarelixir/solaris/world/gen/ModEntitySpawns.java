@@ -3,6 +3,7 @@ package net.solarelixir.solaris.world.gen;
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
 import net.minecraft.entity.*;
+import net.minecraft.entity.mob.HostileEntity;
 import net.minecraft.entity.passive.AnimalEntity;
 import net.minecraft.world.Heightmap;
 import net.minecraft.world.biome.BiomeKeys;
@@ -14,6 +15,11 @@ public class ModEntitySpawns {
                 SpawnGroup.CREATURE, SolarisEntities.TREELING, 15, 1, 1);
         SpawnRestriction.register(SolarisEntities.TREELING, SpawnLocationTypes.ON_GROUND,
                 Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, AnimalEntity::isValidNaturalSpawn);
+
+        BiomeModifications.addSpawn(BiomeSelectors.includeByKey(BiomeKeys.FOREST),
+                SpawnGroup.CREATURE, SolarisEntities.MONSTROSITREE, 2, 1, 1);
+        SpawnRestriction.register(SolarisEntities.MONSTROSITREE, SpawnLocationTypes.ON_GROUND,
+                Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, HostileEntity::canSpawnIgnoreLightLevel);
 
         BiomeModifications.addSpawn(BiomeSelectors.includeByKey(
                 BiomeKeys.FOREST,
