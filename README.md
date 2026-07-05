@@ -85,9 +85,9 @@ This is an early game mini boss, so don't expect a massive challenge!
   Would you want wood/stone items?
 - __Monstrositree has hella funky animations__  
   will fix eventually
-- __Monstrositree might be unbalanced in multiplayer__
+- __Monstrositree might be unbalanced in multiplayer__  
   Haven't tested this in multiplayer yet.
-- __Entity might only render after relog__
+- __Entity might only render after relog__  
   I'm unsure if this is still an issue, I will look into this.
 
 # In the future...
